@@ -1,8 +1,8 @@
 
-public class PremiumInkPrinterFactory implements PrinterComponentFactory {
+public class BaseLEDPrinterFactory implements PrinterComponentFactory {
 	
 	public Scanner selectScanner() {
-		return new ScannerComponent();
+		return new NoScannerComponent();
 	}
 	
 	public Wire selectWire() {
@@ -10,6 +10,6 @@ public class PremiumInkPrinterFactory implements PrinterComponentFactory {
 	}
 	
 	public Screen selectScreen() {
-		return new TouchScreen();
+		return new NoTouchScreen();
 	}
 }

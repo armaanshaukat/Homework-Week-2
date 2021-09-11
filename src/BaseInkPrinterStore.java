@@ -9,6 +9,7 @@ public class BaseInkPrinterStore extends PrinterShop {
 			printer = new InkPrinter(componentFactory);
 			printer.setName("Base Model Ink Printer");
 		}
+		
 		return printer;
 	}
 }

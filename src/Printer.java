@@ -9,15 +9,15 @@ public abstract class Printer {
 	abstract void recieveOrder();
 	
 	void getComponents() {
-		System.out.println("Gathering components for assembly");
+		System.out.println("Gathering Custom Components for Assembly");
 	}
 	
 	void assemble() {
-		System.out.println("Assembling components to specification");
+		System.out.println("Assembling Components into Unit");
 	}
 	
 	void box() {
-		System.out.println("Boxing complete printer for shipping");
+		System.out.println("Boxed and Ready for Shipping");
 	}
 	
 	void setName (String name) {
@@ -30,7 +30,7 @@ public abstract class Printer {
 	
 	public String toString() {
 		StringBuffer result = new StringBuffer();
-		result.append("---- " + name + "----\n");
+		result.append("---- " + name + " Custom Features----\n");
 		
 		if (scanner != null) {
 			result.append(scanner);

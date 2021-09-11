@@ -1,5 +1,5 @@
 
-public class LaserPrinterFactory implements PrinterComponentFactory {
+public class EliteLEDPrinterFactory implements PrinterComponentFactory {
 	
 	public Scanner selectScanner() {
 		return new ScannerComponent();

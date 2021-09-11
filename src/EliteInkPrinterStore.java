@@ -9,6 +9,7 @@ public class EliteInkPrinterStore extends PrinterShop {
 			printer = new InkPrinter(componentFactory);
 			printer.setName("Elite Model Ink Printer");
 		}
+		
 		return printer;
 	}
 }

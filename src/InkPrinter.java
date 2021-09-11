@@ -6,7 +6,8 @@ public class InkPrinter extends Printer {
 		this.componentFactory = componentFactory;
 	}
 	void recieveOrder() {
-		System.out.println(name);
+		System.out.println("Preparing to Build " + name);
+		System.out.println("Gathering Ink Cartridges and Print Head");
 		scanner = componentFactory.selectScanner();
 		wire = componentFactory.selectWire();
 		screen = componentFactory.selectScreen();
